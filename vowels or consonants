@@ -1,0 +1,33 @@
+import java.io.*;
+2
+import java.util.*;
+3
+import java.text.*;
+4
+import java.math.*;
+5
+import java.util.regex.*;
+6
+​
+7
+public class Solution {
+8
+​
+9
+    public static void main(String[] args) {
+10
+       Scanner sc=new Scanner(System.in);
+11
+        char ch=sc.nextLine().charAt(0);
+12
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+13
+        System.out.println("The Character "+ch+" is Vowel");
+14
+        else
+15
+            System.out.println("The Character "+ch+" is Consonant");
+16
+    }
+17
+}
